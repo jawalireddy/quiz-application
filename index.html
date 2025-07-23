@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="quizContainer">
+    <h2 id="question">Question Text</h2>
+    <div id="options"></div>
+    <button id="submitBtn">Submit</button>
+    <div id="feedback"></div>
+    <div id="scoreDisplay">Score: 0 / 0</div>
+  </div>
+
+  <div id="resultContainer" style="display: none;">
+    <h2 id="finalScore">Your Final Score</h2>
+    <button onclick="restartQuiz()">Restart Quiz</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
